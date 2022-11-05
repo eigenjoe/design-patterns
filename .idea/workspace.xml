@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c33b4d-53b7-48c2-b9f8-efd1900d59a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/state/BrushTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/state/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/state/SelectionTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/state/Tool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/memento/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/EditorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/memento/EditorState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/memento/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/memento/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,7 +54,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.designpatterns.state.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.memento.Main" />
       <module name="java-design-patterns" />
@@ -66,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.designpatterns.state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.state.Main" />
+      <module name="java-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpatterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.designpatterns.state.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -80,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667564208915</updated>
-      <workItem from="1667564211747" duration="3013000" />
+      <workItem from="1667564211747" duration="4873000" />
     </task>
     <servers />
   </component>
