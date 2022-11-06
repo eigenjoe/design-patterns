@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c33b4d-53b7-48c2-b9f8-efd1900d59a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/BlackAndWhiteFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/Compressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/HighContrastFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/ImageStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/JpegCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/strategy/PngCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/AuditTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/GenerateReportTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/MoneyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +55,7 @@
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.designpatterns.strategy.Main">
+  <component name="RunManager" selected="Application.com.designpatterns.templateMethod.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.memento.Main" />
       <module name="java-design-patterns" />
@@ -111,8 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.designpatterns.templateMethod.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.templateMethod.Main" />
+      <module name="java-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpatterns.templateMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.designpatterns.templateMethod.Main" />
         <item itemvalue="Application.com.designpatterns.strategy.Main" />
         <item itemvalue="Application.com.designpatterns.iterator.Main" />
         <item itemvalue="Application.com.designpatterns.state.Main" />
@@ -128,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667564208915</updated>
-      <workItem from="1667564211747" duration="11080000" />
+      <workItem from="1667564211747" duration="13300000" />
     </task>
     <servers />
   </component>
