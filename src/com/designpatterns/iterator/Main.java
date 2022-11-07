@@ -14,6 +14,9 @@ public class Main {
             var url = iterator.current();
             System.out.println(url);
             iterator.next();
+
         }
+
     }
+
 }
