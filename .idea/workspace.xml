@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c33b4d-53b7-48c2-b9f8-efd1900d59a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/observer/Chart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/observer/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/observer/SpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/mediator/ArticlesDialogBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/mediator/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/mediator/DialogBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/mediator/ListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/mediator/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/mediator/UIControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.com.designpatterns.mediator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.observer.Main" />
       <module name="java-design-patterns" />
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.designpatterns.iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.iterator.Main" />
+    <configuration name="com.designpatterns.mediator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.mediator.Main" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.iterator.*" />
+          <option name="PATTERN" value="com.designpatterns.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.designpatterns.mediator.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.designpatterns.command.Main" />
         <item itemvalue="Application.com.designpatterns.templateMethod.Main" />
         <item itemvalue="Application.com.designpatterns.strategy.Main" />
-        <item itemvalue="Application.com.designpatterns.iterator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667564208915</updated>
-      <workItem from="1667564211747" duration="17729000" />
+      <workItem from="1667564211747" duration="20205000" />
     </task>
     <servers />
   </component>
