@@ -5,14 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c33b4d-53b7-48c2-b9f8-efd1900d59a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/visitor/AnchorNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/visitor/HeadingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/visitor/HighlightOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/visitor/HtmlDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/visitor/HtmlNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/visitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/visitor/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/composite/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/composite/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/chainOfResponsibility/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/chainOfResponsibility/Authenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/chainOfResponsibility/Compressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/chainOfResponsibility/Compressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/chainOfResponsibility/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/chainOfResponsibility/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/chainOfResponsibility/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/chainOfResponsibility/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/chainOfResponsibility/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/chainOfResponsibility/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/chainOfResponsibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/chainOfResponsibility/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/chainOfResponsibility/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/chainOfResponsibility/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/command/AddCustomerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/command/AddCustomerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/command/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/command/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/command/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/command/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/command/fx/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/command/fx/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/command/fx/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/command/fx/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/iterator/BrowseHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/iterator/BrowseHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/iterator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/iterator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/ArticlesDialogBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/ArticlesDialogBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/DialogBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/DialogBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/ListBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/ListBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/UIControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/UIControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver/ArticlesDialogBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/withObserver/ArticlesDialogBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/withObserver/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/withObserver/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver/ListBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/withObserver/ListBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/withObserver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/withObserver/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver/UIControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/mediator/withObserver/UIControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/memento/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/EditorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/memento/EditorState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/memento/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/memento/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/memento/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/observer/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/observer/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/observer/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/observer/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/observer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/observer/SpreadSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/observer/SpreadSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/state/BrushTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/state/BrushTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/state/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/state/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/state/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/state/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/state/SelectionTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/state/SelectionTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/state/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/state/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/BlackAndWhiteFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/BlackAndWhiteFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/Compressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/Compressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/HighContrastFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/HighContrastFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/ImageStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/ImageStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/JpegCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/JpegCompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/strategy/PngCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/strategy/PngCompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/AuditTrail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/templateMethod/AuditTrail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/GenerateReportTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/templateMethod/GenerateReportTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/templateMethod/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/MoneyTransferTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/templateMethod/MoneyTransferTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/templateMethod/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/templateMethod/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/visitor/AnchorNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/visitor/AnchorNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/visitor/HeadingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/visitor/HeadingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/visitor/HighlightOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/visitor/HighlightOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/visitor/HtmlDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/visitor/HtmlDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/visitor/HtmlNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/visitor/HtmlNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/visitor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/visitor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/visitor/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/behavioural/visitor/Operation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +124,13 @@
       <recent name="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.designpatterns.visitor.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.observer.Main" />
+  <component name="RunManager" selected="Application.com.designpatterns.structural.composite.Main">
+    <configuration name="com.designpatterns.behavioural.chainOfResponsibility.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.behavioural.chainOfResponsibility.Main" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.observer.*" />
+          <option name="PATTERN" value="com.designpatterns.behavioural.chainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.designpatterns.chainOfResponsibility.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.chainOfResponsibility.Main" />
+    <configuration name="com.designpatterns.behavioural.mediator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.behavioural.mediator.Main" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.chainOfResponsibility.*" />
+          <option name="PATTERN" value="com.designpatterns.behavioural.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.designpatterns.mediator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.mediator.Main" />
+    <configuration name="com.designpatterns.behavioural.mediator.withObserver.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.behavioural.mediator.withObserver.Main" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.mediator.*" />
+          <option name="PATTERN" value="com.designpatterns.behavioural.mediator.withObserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.designpatterns.mediator.withObserver.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.mediator.withObserver.Main" />
+    <configuration name="com.designpatterns.behavioural.visitor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.behavioural.visitor.Main" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.mediator.withObserver.*" />
+          <option name="PATTERN" value="com.designpatterns.behavioural.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.designpatterns.visitor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.visitor.Main" />
+    <configuration name="com.designpatterns.structural.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.structural.composite.Main" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.visitor.*" />
+          <option name="PATTERN" value="com.designpatterns.structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.designpatterns.visitor.Main" />
-        <item itemvalue="Application.com.designpatterns.chainOfResponsibility.Main" />
-        <item itemvalue="Application.com.designpatterns.mediator.withObserver.Main" />
-        <item itemvalue="Application.com.designpatterns.mediator.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.designpatterns.structural.composite.Main" />
+        <item itemvalue="Application.com.designpatterns.behavioural.visitor.Main" />
+        <item itemvalue="Application.com.designpatterns.behavioural.chainOfResponsibility.Main" />
+        <item itemvalue="Application.com.designpatterns.behavioural.mediator.withObserver.Main" />
+        <item itemvalue="Application.com.designpatterns.behavioural.mediator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667564208915</updated>
-      <workItem from="1667564211747" duration="27447000" />
+      <workItem from="1667564211747" duration="28984000" />
     </task>
     <servers />
   </component>
