@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c33b4d-53b7-48c2-b9f8-efd1900d59a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/flyweight/IconFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/flyweight/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/flyweight/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/flyweight/PointIcon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/flyweight/PointService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/flyweight/PointType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/bridge/AdvancedRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/bridge/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/bridge/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpatterns/structural/bridge/SonyTV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/com/designpatterns/mediator/withObserver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.designpatterns.structural.flyweight.Main">
+  <component name="RunManager" selected="Application.com.designpatterns.structural.bridge.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.structural.adapter.Main" />
       <module name="java-design-patterns" />
@@ -77,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.designpatterns.structural.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.structural.composite.Main" />
+    <configuration name="com.designpatterns.structural.bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.structural.bridge.Main" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.structural.composite.*" />
+          <option name="PATTERN" value="com.designpatterns.structural.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.designpatterns.structural.bridge.Main" />
         <item itemvalue="Application.com.designpatterns.structural.flyweight.Main" />
         <item itemvalue="Application.com.designpatterns.structural.facade.Main" />
         <item itemvalue="Application.com.designpatterns.structural.decorator.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.designpatterns.structural.composite.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667564208915</updated>
       <workItem from="1667564211747" duration="33073000" />
-      <workItem from="1668287453109" duration="1531000" />
+      <workItem from="1668287453109" duration="3617000" />
     </task>
     <servers />
   </component>
